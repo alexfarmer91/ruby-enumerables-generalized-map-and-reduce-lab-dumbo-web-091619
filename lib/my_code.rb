@@ -1,19 +1,3 @@
-# Your Code Here
-
-def map(array, &block)
- i=0 
- while array.length > i do
-   yield array[i]
-   i += 1 
- end 
- array.map(&block)
- 
-end
-   
-
-
-
-
 
 
 def map(array, &block)
