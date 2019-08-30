@@ -1,5 +1,5 @@
 
-def map(array,&block); 
-  array.map(&block); 
+def map(array,block); 
+  array.map(block); 
   end
 
