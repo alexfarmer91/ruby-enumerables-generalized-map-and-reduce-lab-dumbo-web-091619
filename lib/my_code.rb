@@ -6,7 +6,9 @@ def my_own_map(array, &block)
    yield array[i]
    i += 1 
  end 
+ array.map(&block)
  
+end
    
 
 
