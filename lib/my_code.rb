@@ -1,7 +1,12 @@
 # Your Code Here
 
 def my_own_map(array, block)
- 
+ i=0 
+ while array.length > i do
+   yield array[i]
+
+
+
 
 
 
