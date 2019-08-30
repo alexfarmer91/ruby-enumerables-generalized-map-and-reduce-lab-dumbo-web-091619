@@ -22,7 +22,7 @@ def map_to_negativize(array, block)
     source_array[i] *= -1
     i += 1
   end
-  p source_array
+  p array
 end
 
 
