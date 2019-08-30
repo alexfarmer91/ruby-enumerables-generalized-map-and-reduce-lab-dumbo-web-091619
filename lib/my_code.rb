@@ -16,13 +16,17 @@ end
 
 
 
-def map_to_negativize(array, block)
+def map_to_negativize(array, &block)
   i = 0
+  def what_is_i
+    yield array[i]
+  end
+  new_array = []
   while source_array.length > i do
-    source_array[i] *= -1
+    new_array.push(what_is_i &block)
     i += 1
   end
-  p array
+  
 end
 
 
